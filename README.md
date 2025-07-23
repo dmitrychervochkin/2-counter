@@ -36,3 +36,7 @@ cd 2-counter
 
 # 3. Открой index.html в браузере
 ```
+
+---
+
+![Animated Counter Preview](./preview.gif)
