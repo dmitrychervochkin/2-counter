@@ -50,6 +50,10 @@ function animateSequentialChange(newValue, direction) {
     }, { once: true });
 }
 
+inputValue.addEventListener('change', (e) => {
+    count = e.target.value
+});
+
 minusBtn.addEventListener('click', () => {
     if (count > 0 && !isAnimating) {
         animateSequentialChange(--count, 'up');

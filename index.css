@@ -27,6 +27,11 @@ body{
     font-size: 40px;
     color: #3978EF60;
     transition: color 0.3s;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 .button:hover{
     color: #3978EF;
